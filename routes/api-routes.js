@@ -64,19 +64,4 @@ router.get('/api/workouts/range', (req, res) => {
       });;
 })
 
-// Aggregate function to get the total duration for each workout.
-
-// db.scores.aggregate( [
-//     {
-//       $addFields: {
-//         totalHomework: { $sum: "$homework" } ,
-//         totalQuiz: { $sum: "$quiz" }
-//       }
-//     },
-//     {
-//       $addFields: { totalScore:
-//         { $add: [ "$totalHomework", "$totalQuiz", "$extraCredit" ] } }
-//     }
-//  ] )
-
 module.exports = router;
