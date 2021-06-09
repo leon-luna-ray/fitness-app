@@ -3,7 +3,7 @@
 
   ## Description
 
-  An heroku web app to track your workouts. The app will allow you to enter type of exercise and number of reps or distance. The dashboard will then show your progress over time in a graphic interface.
+  A Heroku web app to track your workouts. The app will allow you to enter type of exercise and number of reps or distance. The dashboard will then show your progress over time in a graphic interface.
 
   [Launch 🚀](https://ray-luna-fitness-tracker.herokuapp.com/) 
 
